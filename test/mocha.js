@@ -19,6 +19,12 @@ describe('Math',function(){
         it('should return 1 when 3>2',()=>{
             expect(cover(3,2)).equal(1);
         });
+        it('should return 0 when 2==2',()=>{
+            expect(cover(2,2)).equal(0);
+        });
+        it('should return 5 when a<b',()=>{
+            expect(cover(2,3)).equal(5);
+        });
     })
 }
 
