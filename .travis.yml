@@ -11,4 +11,4 @@ install:
     - "npm install -D codecov"
 script:
     - 'npm run cover'
-    -"codecov"
+    - "codecov"
