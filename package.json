@@ -7,16 +7,32 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "mocha": "mocha test/mocha.js",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha --reporter test/mocha.js"
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha --reporter test/mocha.js",
+    "jest": "jest test/demo.test.js --coverage"
   },
   "author": "YaseminLi",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.5.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "benchmark": "^2.1.4",
     "chai": "^4.2.0",
     "codecov": "^3.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
     "istanbul": "^0.4.5",
-    "mocha": "^6.0.2"
-  }
+    "jest": "^24.5.0",
+    "mocha": "^6.0.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-test-renderer": "^16.8.4",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "sinon": "^7.2.7"
+  },
+  "dependencies": {}
 }
