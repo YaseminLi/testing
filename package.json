@@ -10,7 +10,8 @@
     "test": "jest",
     "mocha": "mocha test/mocha.js",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha --reporter test/mocha.js",
-    "jest": "jest test/demo.test.js --coverage"
+    "jest": "jest test/demo.test.js --coverage",
+    "webdriver":"mocha test/webdriver.js"
   },
   "author": "YaseminLi",
   "license": "ISC",
