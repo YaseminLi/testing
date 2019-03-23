@@ -20,7 +20,7 @@ const puppeteer=require('puppeteer');
         page.on('load',()=>{//页面加载后执行……
             console.log('page loading done,start fetch……');
             
-            const srcs=await
+            const srcs=await page
         });
         
         await browser.close();
