@@ -11,7 +11,7 @@
     "mocha": "mocha test/mocha.js",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha --reporter test/mocha.js",
     "jest": "jest test/demo.test.js --coverage",
-    "webdriver":"mocha test/webdriver.js"
+    "webdriver": "mocha test/webdriver.js"
   },
   "author": "YaseminLi",
   "license": "ISC",
@@ -29,6 +29,7 @@
     "istanbul": "^0.4.5",
     "jest": "^24.5.0",
     "mocha": "^6.0.2",
+    "puppeteer": "^1.13.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-test-renderer": "^16.8.4",
